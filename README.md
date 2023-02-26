@@ -1,7 +1,8 @@
 # SV04
 
 ## Photos for Pins
-- #### Pins
+- #### Pins 
+- - ### Probably All of the Pins by the MCU
 ![](Photos/Pins.png)
 - #### Creality v5.2.1 Board
 ![](Photos/Creality_v5.2.1_with_Notes.jpeg)
