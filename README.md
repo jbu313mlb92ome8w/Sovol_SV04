@@ -2,7 +2,7 @@
 
 ## Photos for Pins
 
-![](/Photos/Pins.png)
+![](Photos/Pins.png)
 
 ![](Photos/Creality_v5.2.1_with_Notes.jpeg)
 
