@@ -1,3 +1,4 @@
 # Photos to Refernce for Pins
 
-![Pins](/Photos/Pins.png)
+![](/Photos/Pins.png)
+![](Photos/Creality v5.2.1  with Notes.jpeg)
