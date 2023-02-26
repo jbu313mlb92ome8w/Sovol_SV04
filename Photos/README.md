@@ -1,3 +1,3 @@
 # Photos to Refernce for Pins
 
-Photos/Pins.png
+/Photos/Pins.png
