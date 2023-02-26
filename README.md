@@ -1,5 +1,9 @@
 # SV04
 
+## Photos to Refernce for Pins
+
+![](/Photos/Pins.png)
+
 ## Links
 
 #### MCU
