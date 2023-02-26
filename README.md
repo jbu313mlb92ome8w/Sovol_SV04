@@ -6,6 +6,8 @@
 
 ![](Photos/Creality_v5.2.1_with_Notes.jpeg)
 
+![](Photos/Breakout_Board.jpeg)
+
 ## Links
 
 #### MCU
