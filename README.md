@@ -1,6 +1,6 @@
 # SV04
 
-## Photos to Refernce for Pins
+## Photos for Pins
 
 ![](/Photos/Pins.png)
 
