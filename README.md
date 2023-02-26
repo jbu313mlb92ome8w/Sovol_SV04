@@ -12,5 +12,4 @@ https://gd32mcu.com/data/documents/datasheet/GD32F303xx_Datasheet_Rev2.0.pdf
 
 
 #### TMC2209
-
 https://www.trinamic.com/products/integrated-circuits/details/tmc2209-la
