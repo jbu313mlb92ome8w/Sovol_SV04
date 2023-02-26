@@ -4,6 +4,8 @@
 
 ![](/Photos/Pins.png)
 
+![](Photos/Creality_v5.2.1_with_Notes.jpeg)
+
 ## Links
 
 #### MCU
