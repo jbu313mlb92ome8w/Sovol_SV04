@@ -4,7 +4,7 @@
 - #### Pins 
 ![](Photos/Pins_v3.png)
 - #### Creality v5.2.1 Board
-![](Photos/Creality_v5.2.1_with_Notes.jpeg)
+![](Photos/Creality_v5.2.1_with_Notes_v2.jpeg)
 - #### Breakout Board
 ![](Photos/Breakout_Board.jpeg)
 
