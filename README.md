@@ -17,3 +17,6 @@
 - https://www.gd32mcu.com/data/documents/userManual/GD32F30x_User_Manual_Rev2.9.pdf
 #### TMC2209
 - https://www.trinamic.com/products/integrated-circuits/details/tmc2209-la
+#### Credits to Those Whos Klipper Configs Helped Get Me Started
+- https://github.com/Bogdan295/Sovol-SV04-Klipper-config
+- https://gist.github.com/Nathan22211/3aafa5987f2c19640dc5095d9656273f
