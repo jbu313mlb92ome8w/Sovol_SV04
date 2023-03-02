@@ -3,7 +3,7 @@
 ## Photos for Pins
 - #### Pins 
   - ###### Probably All of the Pins Used by the MCU
-![](Photos/Pins_v2.png)
+![](Photos/Pins_v3.png)
 - #### Creality v5.2.1 Board
 ![](Photos/Creality_v5.2.1_with_Notes.jpeg)
 - #### Breakout Board
