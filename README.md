@@ -19,4 +19,5 @@
 - https://www.trinamic.com/products/integrated-circuits/details/tmc2209-la
 #### Credit to Those Whos Klipper Configs Helped Get Me Started
 - https://github.com/Bogdan295/Sovol-SV04-Klipper-config
+- https://github.com/Klipper3d/klipper/pull/5897/files
 - https://gist.github.com/Nathan22211/3aafa5987f2c19640dc5095d9656273f
