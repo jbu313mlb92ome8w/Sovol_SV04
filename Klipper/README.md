@@ -56,7 +56,7 @@ M107
 ## Before Layer Change G-Code
 ## After Layer Change G-Code
 ## Tool Change G-Code
-##### Under Construction
+- ##### Under Construction
 ```
 ; heat to temp, next extruder
 {if first_layer_temperature[next_extruder] > 50}M109 R{first_layer_temperature[next_extruder]} T[next_extruder]{endif}
