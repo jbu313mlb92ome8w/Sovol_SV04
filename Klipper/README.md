@@ -1,5 +1,5 @@
 # Config Files for Klipper
-See attached file.
+See attached files.
 
 # SuperSlicer Custom G-Code
 ## Start G-Code
