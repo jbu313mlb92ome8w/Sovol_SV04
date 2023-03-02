@@ -22,23 +22,23 @@ M190 S{max(first_layer_bed_temperature[0], first_layer_bed_temperature[1])}
 G34
 ; auto bed leveling
 ;G29
-;auto bed leveling, only active pint area
+; auto bed leveling, only active print area
 BED_MESH_CALIBRATE PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]} FORCE_NEW_MESH=True
-; heat to temp, initial extruder
-{if first_layer_temperature[initial_extruder] > 50}M109 S{first_layer_temperature[initial_extruder]} T[initial_extruder]{endif}
 ; park extruders
 _PARK_extruder1
 _PARK_extruder
+; heat to temp, initial extruder
+{if first_layer_temperature[initial_extruder] > 50}M109 S{first_layer_temperature[initial_extruder]} T[initial_extruder]{endif}
 ; initiate extruder
 T[initial_extruder]
 ```
 ## End G-Code
 ```
-;zero rpi fan
+; zero rpi fan
 SET_FAN_SPEED FAN=rpi SPEED=0
-;turn off heaters
+; turn off heaters
 TURN_OFF_HEATERS
-;raise z
+; raise z
 G91
 G0 Z5 F500
 G90
