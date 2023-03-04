@@ -6,6 +6,8 @@ See attached files.
 ```
 ; set rpi fan to full
 SET_FAN_SPEED FAN=rpi SPEED=1
+; turn off heaters
+TURN_OFF_HEATERS
 ; set standby temp, extruder 0
 {if first_layer_temperature[0] > 50}M104 S175 T0{endif}
 ; set standby temp, extruder 1
@@ -18,6 +20,8 @@ _PARK_extruder
 T0
 ; set and wait for bed temperature
 M190 S{max(first_layer_bed_temperature[0], first_layer_bed_temperature[1])}
+; heat to temp, initial extruder
+{if first_layer_temperature[initial_extruder] > 50}M109 S{first_layer_temperature[initial_extruder]} T[initial_extruder]{endif}
 ; home, tram gantry, and home
 G34
 ; auto bed leveling
@@ -27,8 +31,6 @@ BED_MESH_CALIBRATE PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1
 ; park extruders
 _PARK_extruder1
 _PARK_extruder
-; heat to temp, initial extruder
-{if first_layer_temperature[initial_extruder] > 50}M109 S{first_layer_temperature[initial_extruder]} T[initial_extruder]{endif}
 ; initiate extruder
 T[initial_extruder]
 ```
