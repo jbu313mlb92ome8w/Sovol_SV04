@@ -135,6 +135,10 @@ _PARK_extruder
 M118{"T"}[next_extruder]{" Next Extruder Heating to Temp "}{first_layer_temperature[next_extruder]}
 M109 S{first_layer_temperature[next_extruder]} T[next_extruder]
 
+; heat soak, next extruder
+M118{"T"}[next_extruder]{" Next Extruder Heat Soaking to Temp "}{first_layer_temperature[next_extruder]}
+G4 P15000
+
 ; change extruder
 T[next_extruder]
 ```
