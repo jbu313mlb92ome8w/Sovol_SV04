@@ -13,19 +13,21 @@ M140 S{max(first_layer_bed_temperature[0], first_layer_bed_temperature[1])}
 
 ; set standby temp, extruder 0
 {if first_layer_temperature[0] > 50}
-	M118{"T0 Set to Standby Temp "}{round(first_layer_temperature[0]*.85)}{else}
-	M118{"T0 Set to Temp Off"}{endif}
-{if first_layer_temperature[0] > 50}
-	M104 S{round(first_layer_temperature[0]*.85)} T0{else}
-	M104 S0 T0{endif}
+	M118{"T0 Set to Standby Temp "}{round(first_layer_temperature[0]*.85)}
+	M104 S{round(first_layer_temperature[0]*.85)} T0
+{else}
+	M118{"T0 Set to Temp Off"}
+	M104 S0 T0
+{endif}
 
 ; set standby temp, extruder 1
 {if first_layer_temperature[1] > 50}
-	M118{"T1 Set to Standby Temp "}{round(first_layer_temperature[1]*.85)}{else}
-	M118{"T1 Set to Temp Off "}{endif}
-{if first_layer_temperature[1] > 50}
-	M104 S{round(first_layer_temperature[1]*.85)} T1{else}
-	M104 S0 T1{endif}
+	M118{"T1 Set to Standby Temp "}{round(first_layer_temperature[1]*.85)}
+	M104 S{round(first_layer_temperature[1]*.85)} T1
+{else}
+	M118{"T1 Set to Temp Off "}
+	M104 S0 T1
+{endif}
 
 ; set initial temp, initial extruder
 M118{"T"}[initial_extruder]{" Initial Extruder Set to Temp "}{first_layer_temperature[initial_extruder]}
@@ -38,6 +40,10 @@ M190 S{max(first_layer_bed_temperature[0], first_layer_bed_temperature[1])}
 ; heat to temp, initial extruder
 M118{"T"}[initial_extruder]{" Initial Extruder Heating to Temp "}{first_layer_temperature[initial_extruder]}
 M109 S{first_layer_temperature[initial_extruder]} T[initial_extruder]
+
+; heat soak, bed temperature
+M118{"Bed Heat Soaking to Temp "}{max(first_layer_bed_temperature[0], first_layer_bed_temperature[1])}
+G4 P60000
 
 ; home, tram gantry, and home
 G34
