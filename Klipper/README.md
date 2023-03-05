@@ -59,6 +59,7 @@ T[initial_extruder]
 
 
 
+
 ## End G-Code
 ```
 ; zero rpi fan
@@ -89,9 +90,19 @@ M18
 ## Before Layer Change G-Code
 ```
 ```
+
+
+
+
+
 ## After Layer Change G-Code
 ```
 ```
+
+
+
+
+
 ## Tool Change G-Code
 - ##### Under Construction
 ```
@@ -119,19 +130,48 @@ M109 S{first_layer_temperature[next_extruder]} T[next_extruder]
 ; change extruder
 T[next_extruder]
 ```
+
+
+
+
+
 ## Between Objects G-Code (for Sequntial Printing)
 ```
+
 ```
+
+
+
+
+
 ## Between Extrusion Role Change G-Code
 ```
+
 ```
+
+
+
+
+
 ## Colour Change G-Code
 ```
+
 ```
+
+
+
+
+
 ## Pause Print G-Code
 ```
 PAUSE
 ```
+
+
+
+
+
 ## Template Custom G-Code
 ```
+
 ```
