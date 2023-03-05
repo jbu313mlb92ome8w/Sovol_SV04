@@ -1,5 +1,6 @@
 # Config Files for Klipper
-See attached files.
+See attached files. Go through all of the configurations checks listed on the Klipper site.
+https://www.klipper3d.org/Config_checks.html
 
 # SuperSlicer Custom G-Code
 ## Start G-Code
