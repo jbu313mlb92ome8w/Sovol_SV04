@@ -7,6 +7,7 @@
   - ###### Orientation as Referenced in Pins Picture
 ![](Photos/Creality_v5.2.1_with_Notes_v2.1.jpeg)
 - #### Breakout Board
+  - ###### Orientation as Referenced in Pins Picture
 ![](Photos/Breakout_Board.jpeg)
 
 ## Links
